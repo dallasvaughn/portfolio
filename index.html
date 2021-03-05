@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/styles.css" />
+    <title>Dallas Vaughn</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Dallas Vaughn</h1>
+      <nav class="nav">
+        <a
+          href="https://www.linkedin.com/in/dallas-vaughn/"
+          target="_blank"
+          class="nav__link"
+          ><img
+            src="./images/linkedin.png"
+            alt="linkedin logo"
+            class="nav__link-img" /></a
+        ><a
+          href="https://github.com/dallasvaughn"
+          target="_blank"
+          class="nav__link"
+          ><img
+            src="./images/github.png"
+            alt="github logo"
+            class="nav__link-img"
+        /></a>
+      </nav>
+    </header>
+    <section class="about">
+      <p>
+        My name is Dallas and I currently live in Seattle, WA. I recently
+        graduated with a master's degree in Information Technology after
+        receiving a bachelor's in Biopsychology. While in school for my
+        master's, I supplemented my course work with studying web development,
+        particularly honing my skills with front-end development. You can view
+        some of the projects that I've worked on below.
+      </p>
+    </section>
+    <div class="divide"></div>
+    <section class="skills">
+      <p>My favorite technologies to work with include:</p>
+      <div class="skills__list">
+        <div class="skills__list-item">
+          <img class="logo" src="./images/html.png" alt="html logo" />
+          <span>HTML5</span>
+        </div>
+        <div class="skills__list-item">
+          <img src="./images/css.png" alt="css logo" class="logo" />
+          <span>CSS3</span>
+        </div>
+        <div class="skills__list-item">
+          <img src="./images/sass.png" alt="sass logo" class="logo" />
+          <span>Sass</span>
+        </div>
+        <div class="skills__list-item">
+          <img src="./images/js.png" alt="javascript logo" class="logo" />
+          <span>JavaScript</span>
+        </div>
+        <div class="skills__list-item">
+          <img src="./images/react.png" alt="react logo" class="logo" />
+          <span>React.js</span>
+        </div>
+        <div class="skills__list-item">
+          <img src="./images/node.png" alt="node logo" class="logo" />
+          <span>Node.js</span>
+        </div>
+      </div>
+    </section>
+    <div class="divide"></div>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="projects__list">
+        <div class="projects__list-item">
+          <img src="./images/Crowdfund.png" alt="project screenshot" />
+          <div class="text">
+            <h3>Crowdfunding Product Page</h3>
+            <p>
+              A product page for a hypothetical crowdfunding project that was
+              developed to match a specific design provided. Users will be
+              presented with a modal by clicking certain buttons and depending
+              on whether a mobile device is being used. Vanilla JavaScript was
+              used to accomplish functionality.
+            </p>
+            <a
+              href="https://dallasvaughn.github.io/crowdfunding-product-page/"
+              target="_blank"
+              >View this project</a
+            >
+          </div>
+        </div>
+        <div class="projects__list-item">
+          <img src="./images/Testing Locator.png" alt="project screenshot" />
+          <div class="text">
+            <h3>COVID-19 Testing & Data</h3>
+            <p>
+              React application that queries example testing location data.
+              Users can search for testing locations by state, and compare
+              testing data between two different states. Numbers are not
+              accurate and purely for example; data charts showcase the number
+              of testing locations per capita to provide a sense of testing
+              accessibility.
+            </p>
+            <a
+              href="https://dallasvaughn.github.io/testing-site-locator/"
+              target="_blank"
+              >View this project</a
+            >
+          </div>
+        </div>
+        <div class="projects__list-item">
+          <img src="./images/NewsDesktop.png" alt="project screenshot" />
+          <div class="text">
+            <h3>News Dashboard</h3>
+            <p>
+              React application that uses the NewsAPI to retrieve US news. Users
+              can search for a news topic and see the top 20 search results for
+              that category. Additionally, users will see a data chart
+              summarizing where the news is coming from. Once a search is made,
+              the app tallies each news source and displays the data on a bar
+              chart. Unfortunately, NewsAPI only allows the free tier of their
+              API usage to run locally, so there is no live version of the
+              project. :(
+            </p>
+          </div>
+        </div>
+        <div class="projects__list-item">
+          <img src="./images/Noteboard.png" alt="project screenshot" />
+          <div class="text">
+            <h3>Noteboard</h3>
+            <p>
+              React app that uses local storage to save and delete notes. Users
+              can create and delete notes as they wish. Upon a user's first
+              visit, the app automatically adds a starter note explaining how to
+              use the app. From there, users may freely create and delete notes.
+            </p>
+            <a href="https://dallasvaughn.github.io/noteboard/" target="_blank"
+              >View this project</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
