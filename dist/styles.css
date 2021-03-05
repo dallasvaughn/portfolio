@@ -306,7 +306,7 @@ body {
   padding: 5rem;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1236px) {
   .projects {
     margin-top: 20rem;
   }
@@ -316,7 +316,7 @@ body {
   text-align: center;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1236px) {
   .projects h2 {
     font-size: 3.6rem;
     margin-bottom: 8rem;
@@ -340,14 +340,14 @@ body {
 }
 
 .projects__list-item {
-  width: 30rem;
+  width: 35rem;
   background-color: #fff;
   border: 1px solid #c9d6df;
   border-radius: 7px;
   margin-bottom: 2rem;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1236px) {
   .projects__list-item {
     width: auto;
     max-width: 110rem;
@@ -359,13 +359,13 @@ body {
 }
 
 .projects__list-item img {
-  width: 30rem;
+  width: 35rem;
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
   border-bottom: 1px solid #c9d6df;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1236px) {
   .projects__list-item img {
     width: 50rem;
     height: auto;
@@ -381,7 +381,7 @@ body {
   line-height: 1.6;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1236px) {
   .projects__list-item .text {
     padding: 2rem 6rem 5rem 6rem;
   }
@@ -391,7 +391,7 @@ body {
   color: #1e2022;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1236px) {
   .projects__list-item .text h3 {
     font-size: 2.2rem;
   }
@@ -401,7 +401,7 @@ body {
   color: #52616b;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1236px) {
   .projects__list-item .text p {
     font-size: 1.4rem;
   }
